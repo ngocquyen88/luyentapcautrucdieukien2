@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài tập luyện tập cấu trúc điều kiện 2</title>
+</head>
+<body>
+<h2>Bài 1 - Chuyển đổi độ C sang độ F</h2>
+<label>Nhiệt độ: <input id="temperature"/> độ C</label>
+<button type="button" onclick="ex1()">Chuyển đổi sang độ F</button><br/><br/>
+<label id="ex1"></label>
+<hr/>
+
+<h2>Bài 2 - Chuyển từ mét sang feet</h2>
+<label>Độ dài: <input id="length"/> mét</label>
+<button type="button" onclick="ex2()">Chuyển đổi sang feet</button><br/><br/>
+<label id="ex2"></label>
+<hr/>
+
+<h2>Bài 3 - Tính diện tích hình vuông khi biết độ dài cạnh a</h2>
+<label>Độ dài cạnh a của hình vuông là: <input id="aSquare"/></label>
+<button type="button" onclick="ex3()">Tính diện tích</button><br/><br/>
+<label id="ex3"></label>
+<hr/>
+
+<h2>Bài 4 - Tính diện tích hình chữ nhật khi biết độ dài hai cạnh a, b</h2>
+<label>Độ dài hai cạnh của hình chữ nhật là:
+    <br/>Chiều rộng:<input id="aCross"/> Chiều dài:<input id="bCross"/>
+</label> <button type="button" onclick="ex4()">Tính diện tích</button><br/><br/>
+<label id="ex4"></label>
+<hr/>
+
+<h2>Bài 5 - Tính diện tích tam giác vuông khi biết hai cạnh kề a, b</h2>
+<label>Độ dài hai cạnh kề của tam giác vuông là:
+    <br/>Cạnh thứ nhất:<input id="aTriangle"/> Cạnh thứ hai:<input id="bTriangle"/>
+</label> <button type="button" onclick="ex5()">Tính diện tích</button><br/><br/>
+<label id="ex5"></label>
+<hr/>
+
+<h2>Bài 6 - Giải phương trình bậc 1</h2>
+<p>Phương trình bậc 1 có dạng: ax + b = 0</p>
+<label>Nhập vào giá trị:
+    <br/><input id="aEx1"/>x + <input id="bEx1"/>
+</label> <button type="button" onclick="ex6()">Tính nghiệm</button><br/><br/>
+<label id="ex6"></label>
+<hr/>
+
+<h2>Bài 7 - Giải phương trình bậc 2</h2>
+<p>Phương trình bậc 1 có dạng: ax<sup>2</sup> + bx + c = 0</p>
+<label>Nhập vào giá trị:
+    <br/><input id="aEx2"/>x<sup>2</sup> + <input id="bEx2"/>x + <input id="cEx2"/>
+</label> <button type="button" onclick="ex7()">Tính nghiệm</button><br/><br/>
+<label id="ex7"></label>
+<hr/>
+
+<h2>Bài 8 - Kiểm tra một số nhập vào có phải là tuổi của một người không</h2>
+<label>Nhập vào tuổi: <input type="number" id="age"/></label>
+<button type="button" onclick="ex8()">Kiểm tra</button><br/><br/>
+<label id="ex8"></label>
+<hr/>
+
+<h2>Bài 9 - Kiểm tra ba số thực (a,b,c) nhập vào có phải là cạnh của một tam giác không</h2>
+<label>Nhập vào ba số thực:
+    <br/><input type="number" id="aEx9"/><br/>
+    <br/><input type="number" id="bEx9"/><br/>
+    <br/><input type="number" id="cEx9"/><br/><br/>
+</label>
+<button type="button" onclick="ex9()">Kiểm tra</button><br/><br/>
+<label id="ex9"></label>
+<hr/>
+
+<h2>Bài 10 - Viết chương trình tính giá điện</h2>
+<pre>Bảng giá điện:
+- 100 số đầu: 2000đ
+- 101-200 số: 3000đ
+- 201 số trở lên: 4000đ</pre>
+<label>Tổng số điện bạn dùng tháng này: <input id="eTotal"/></label>
+<button type="button" onclick="ex10()">Tính giá điện</button><br/><br/>
+<label id="ex10"></label>
+<hr/>
+
+<h2>Bài 11 - Viết chương trình tính thuế thu nhập cá nhân</h2>
+<pre>Quy định tính thuế thu nhập cá nhân (theo tháng):
+    - 9 triệu trở lên: 10%
+    - 18 đến 50 triệu: 20%
+    - 50 triệu trở lên: 30%
+</pre>
+<label>Tiền lương hàng tháng của bạn là: <input id="monthly_salary"/></label>
+<button type="button" onclick="ex11()">Tính thuế thu nhập cá nhân</button><br/><br/>
+<label id="ex11"></label>
+<hr/>
+
+<h2>Bài 12 - Chương trình tính lãi ngân hàng</h2>
+<pre>Mời bạn vào gửi tiết kiệm nào ^^:
+    - Lãi suất hiện tại của ngân hàng là:     <input type="number" id="interest_rate"/>% một năm.
+
+    - Bạn cần gửi số tiền là:                 <input type="number" id="amount"/>VNĐ.
+
+    - Bạn muốn gửi tiết kiệm trong thời gian: <input type="number" id="time"/>tháng.
+</pre>
+<p style="position: absolute; left:360px"><button type="button" onclick="ex12()">Tính lãi hàng tháng</button></p><br/><br/>
+<label id="ex12"></label>
+<hr/>
+
+
+</body>
+<script src="js/ctdk2.js"></script>
+</html>
